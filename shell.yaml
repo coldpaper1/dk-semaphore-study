@@ -1,0 +1,6 @@
+- name:
+  hosts:
+    - all
+  tasks:
+    - name:
+      ansible.builtin.shell: 'echo "Hello" >> hello.txt'
